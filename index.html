@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Página de Login</title>
+    <style>
+        body {
+            width: 1280px;
+            height: 1024px;
+            background-image: url("image.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        h1 {
+            font-size: 42px;
+            text-align: center;
+            margin-top: 100px;
+        }
+
+        h2 {
+            font-size: 30px;
+            text-align: center;
+        }
+
+        p {
+            font-size: 25px;
+            text-align: center;
+        }
+
+        input {
+            width: 200px;
+            height: 40px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            margin: 20px 0;
+        }
+
+        button {
+            width: 100px;
+            height: 40px;
+            background-color: #2952A3;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <h1>O Vigilante do Consumo</h1>
+    <h2>Entre</h2>
+    <p>Imagine você poder prever quando seu cliente está precisando comprar novamente os seus produtos?</p>
+    <p>Imagine você poder enviar mensagens automáticas avisando ao seu cliente que o produto que comprou com você está perto de acabar?</p>
+    <form action="/login" method="post">
+        <input type="text" name="username" placeholder="Usuário">
+        <input type="password" name="password" placeholder="Senha">
+        <button type="submit">Entrar</button>
+    </form>
+</body>
+</html>
